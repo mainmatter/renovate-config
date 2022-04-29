@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "config:base",
+    ":disableRateLimiting"
+  ],
+  "labels": [
+    "dependencies",
+    "renovatebot"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "depTypeList": [
+        "devDependencies"
+      ],
+      "extends": [
+        "group:allNonMajor",
+        "schedule:weekly"
+      ],
+      "lockFileMaintenance": {
+        "enabled": true
+      }
+    }
+  ]
+}
