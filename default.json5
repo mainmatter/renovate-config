@@ -1,5 +1,10 @@
 {
-  extends: ["config:base", ":disableRateLimiting", ":preserveSemverRanges"],
+  extends: [
+    "config:base",
+    ":disableRateLimiting",
+    ":preserveSemverRanges",
+    "helpers:pinGitHubActionDigests"
+  ],
   lockFileMaintenance: {
     enabled: true,
   },
