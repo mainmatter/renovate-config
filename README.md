@@ -1,2 +1,2 @@
 # renovate-config
-A shared Renovate configuration for Simplabs Open Source repositories.
+A shared Renovate configuration for Mainmatter Open Source repositories.
