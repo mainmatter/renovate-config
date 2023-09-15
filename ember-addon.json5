@@ -1,6 +1,7 @@
 {
   "extends": [
     "github>mainmatter/renovate-config:default.json5",
+    "github>mainmatter/renovate-config:automerge-dev.json5",
     ":pinOnlyDevDependencies"
   ],
   "packageRules": [
