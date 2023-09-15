@@ -6,7 +6,7 @@
         ":automergeLinters",
         ":automergeTesters",
         ":automergeStableNonMajor",
-        ":automergeWeekly",
+        "schedule:automergeNonOfficeHours",
       ],
       matchDepTypes: ["devDependencies"],
     }
