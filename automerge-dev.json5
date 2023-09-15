@@ -1,0 +1,14 @@
+{
+  packageRules: [
+    {
+      "extends": [
+        ":automergePatch",
+        ":automergeLinters",
+        ":automergeTesters",
+        ":automergeStableNonMajor",
+        ":automergeWeekly",
+      ],
+      matchDepTypes: ["devDependencies"],
+    }
+  ]
+}
